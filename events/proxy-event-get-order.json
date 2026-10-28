@@ -1,0 +1,24 @@
+{
+  "resource": "/orders/{id}",
+  "path": "/orders/ORD-42",
+  "httpMethod": "GET",
+  "headers": {
+    "Accept": "application/json",
+    "Host": "abc123.execute-api.us-east-1.amazonaws.com",
+    "User-Agent": "curl/8.4.0"
+  },
+  "queryStringParameters": null,
+  "pathParameters": {
+    "id": "ORD-42"
+  },
+  "stageVariables": null,
+  "requestContext": {
+    "resourcePath": "/orders/{id}",
+    "httpMethod": "GET",
+    "path": "/prod/orders/ORD-42",
+    "stage": "prod",
+    "requestId": "c6af9ac6-7b61-11e6-9a41-93e8deadbeef"
+  },
+  "body": null,
+  "isBase64Encoded": false
+}
